@@ -32,10 +32,10 @@ export const TWITTER = {
   button: btn_twitter
 }
 
-// export const MEDIUM = {
-//   link: 'https://medium.com/@0xEto',
-//   button: btn_medium
-// }
+export const MEDIUM = {
+  link: 'https://medium.com/@0xEto',
+  button: btn_medium
+}
 
 export const GITHUB = {
   link: undefined,
