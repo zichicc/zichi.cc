@@ -3,10 +3,10 @@
 
 // Set 'wallet' to undefined if you wish to disable the Tipping feature
 export const DETAILS = {
-  name: 'Eto',
-  header: 'Eto.eth',
-  headerlink: 'https://twitter.com/etoeth',
-  wallet: '0x239b88b1be00f539c8200c571d82ca13c661faf3'
+  name: 'Christian Zichichi',
+  header: 'zichicc.eth',
+  headerlink: 'https://twitter.com/zichi_cc',
+  wallet: '0x0843575a4B63471b90711F83df26bFC47EF094F5'
 }
 
 // Import Background Image here 👇
@@ -28,14 +28,14 @@ import btn_medium from './images/btn_medium.png'
 // To include a footer icon: Give 'link' a value
 // To include a button: Give 'button' your imported image value
 export const TWITTER = {
-  link: 'https://twitter.com/etoeth',
+  link: 'https://twitter.com/zichi_cc',
   button: btn_twitter
 }
 
-export const MEDIUM = {
-  link: 'https://medium.com/@0xEto',
-  button: btn_medium
-}
+// export const MEDIUM = {
+//   link: 'https://medium.com/@0xEto',
+//   button: btn_medium
+// }
 
 export const GITHUB = {
   link: undefined,
