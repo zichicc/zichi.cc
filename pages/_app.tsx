@@ -6,7 +6,7 @@ import { Web3ReactProvider } from '@web3-react/core';
 import { Web3Provider } from '@ethersproject/providers';
 import BgImg from '../components/BgImg';
 import { DETAILS, TITLE } from '../config';
-// import { Footer } from '../components/Footer';
+import { Footer } from '../components/Footer';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const getLibrary = (provider: any) => {
@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </main>
 
-<!--       <Footer /> -->
+      <Footer />
     </div>
     <BgImg />
     </Web3ReactProvider>
